@@ -1,0 +1,15 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right; /*con esto hacemos que aparezca bien a la derecha osea con float podemos especificar la posicion de un elemento en su contendor */
+    cursor: pointer; /* cuando ponemos el mouse encima apraezca la mano */
+    color: red;
+    font-weight: bold;/*  negrita */
+}
